@@ -1,0 +1,142 @@
+@media screen and (min-width: 1152px){
+	:root {
+		--biggest--font-size: 4rem;
+		--bigger-font-size: 2.25rem;
+		--h1-font-size: 2.25rem;
+		--h2-font-size: 1.5rem;
+		--h3-font-size: 1rem;
+		--small-font-size: .875rem;
+		--smaller-font-size: .813rem;
+	}
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+
+}
+input, text,textarea,button, body{
+	font-family: "poppins", sans-serif;
+	font-size: .938rem;
+}
+body{
+	background-color: darkgrey;
+	background-color: #ccc;
+}
+input, textarea,button{
+	outline: none;
+	border: none;
+
+}
+h1,h2,h3,h4{
+	color: #fff;
+	font-weight: 500px; 
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img,svg{
+	max-width: 100%;
+	height: auto;
+
+}
+.container{
+	max-width: 1120px;
+	margin-inline: 1.5rem;
+}
+.grid{
+	display: grid;
+	gap: 1.5rem;
+}
+.section{
+	padding-block: 5rem 2rem;
+}
+.section__title,
+.section__subtitle{
+	text-align: center;
+	color: #fff;
+
+	font-weight: 600px;
+}
+.section__title{
+	font-size: var(--h1-font-size);
+	margin-bottom: 1.5rem;
+}
+.section__subtitle{
+	font-size: var(--smaller-font-size);
+	margin-bottom: .25rem;
+
+}
+.section__subtitle span{
+	color: hsl(162, 100%, 40%);
+}
+.main{
+	overflow: hidden;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	background: #000034;
+	top: 0;
+	left: 0;
+	z-index: 100;
+
+}
+.nav{
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__logo{
+	color: #fff;
+	font-weight: 500px;
+}
+.nav__logo span{
+	color: darkcyan;
+}
+.nav__toggle, .nav__close{
+	display: flex;
+	font-size: 1.25rem;
+	color: #fff;
+	cursor: pointer;
+}
+@media screen and (max-width: 1032px){
+	.nav__menu{
+		position: fixed;
+		top: 0;
+		right: -100%;
+		background-color: hsl(0, 0%, 10%, .3);
+		width: 75%;
+		height: 100%;
+		padding: 4.5rem 0 0 3rem;
+		backdrop-filter: blur(24px);
+		-webkit-backdrop-filter: blur(24px);
+		transition: right .4s;
+	}
+}
+.nav__list{
+	display: flex;
+	flex-direction: column;
+	row-gap: 3rem;
+}
+.nav__link{
+	color: #fff;
+	font-weight: 500px;
+	transition: color .4s;
+}
+.nav__link:hover{
+	color: darkcyan;
+
+}
+.nav__close{
+	position: absolute;
+	top: 1rem;
+	right: 1.5rem;
+}

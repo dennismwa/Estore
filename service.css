@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+.header{
+	top:  0;
+	width: 100%;
+	height: 10vh;
+	z-index: 100;
+	position: fixed;
+	background: #ccc;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 8%;
+	margin-left: 8%;
+
+}
+.span1{
+	color: #f9004d;
+	text-shadow: 2px 2px 5px #000034;
+}
+h1{
+	font-size: 35px;
+	color: #000034;
+	font-weight: bold;
+	letter-spacing: 2.9px;
+}
+nav ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: #000034;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #f9004d;
+}
+.btn{
+	border: 1px solid transparent;
+	border-radius: 22px;
+	color: #fff;
+	width: 100px;
+	background: #f9004d;
+	padding: 10px 8px;
+	font-weight: bold;
+}
+.btn:hover{
+	transform: scale(1.2);
+	color: #fff;
+}
+
+main{
+	width: 100%;
+	margin-top: 10vh;
+	 min-height: calc(100vh - 10vh);
+	overflow: auto;
+	display: flex;
+	background-image: url("assets/images/e-commerce-g1c38865cb_1920.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+.item-sect{
+	position: absolute;
+	top: 40%;
+	margin-left: 50px;
+
+}
+.item-sect h2{
+	color: #f9004d;
+	word-spacing: 1.2px;
+	font-size: 65px
+
+}
+.h2{
+	color: #000034;
+	font-size: 60px;
+}
+.item-sect2{
+	top: 10%;
+	position: absolute;
+	right: 10px;
+	margin-right: 20px;
+	display: block;
+	align-items: center;
+	justify-content: space-evenly;
+	
+}
+.det{
+	margin-top: 7px;
+	font-size: 25px;
+	text-align: center;
+	color: #000;
+	font-weight: bolder;
+	border: 1px solid transparent;
+	border-radius: 12px;
+	padding: 10px 15px;
+	background: transparent;
+}
+.bttn{
+	
+	width: 100px;
+	bottom: 30px;
+	position: absolute;
+	left: 40%;
+	right: 60%;
+}
+.btn{
+	padding: 6px 12px;
+	width: 150px;
+	color: #fff;
+	font-weight: bolder;
+	background: rgb(255, 0, 157);
+}
+
+
+.serv{
+	width: 100%;
+	height: 10vh;
+    padding: 20px 20px;
+    bottom: 100px;
+    background: #000033;
+    color: aqua;
+}
+.footer{
+	
+    width: 100%;
+    padding: 20px 20px;
+    bottom: 0;
+    background: #000033;
+    color: aqua;
+}
+.row{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+
+
+}
+.footer span{
+    font-size: 1.5rem;
+    padding: 6px;
+}
+.row h2{
+    color: aquamarine;
+}
+.row a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 1.2rem;
+}
+.copyright{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: aquamarine;
+    font-size: 1.1rem;
+}

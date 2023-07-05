@@ -1,0 +1,142 @@
+.header{
+	top:  0;
+	width: 100%;
+	height: 10vh;
+	z-index: 100;
+	position: fixed;
+	background: #ccc;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 8%;
+	margin-left: 8%;
+
+}
+.span1{
+	color: #f9004d;
+}
+h1{
+	font-size: 35px;
+	color: #000034;
+	font-weight: bold;
+	letter-spacing: 2.9px;
+}
+nav ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: #000034;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #f9004d;
+}
+.btn{
+	padding: 6px 12px;
+	width: 150px;
+	color: #fff;
+	font-weight: bolder;
+	background: rgb(255, 0, 157);
+
+}
+#row2{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+	padding-top: 40px;
+	
+}
+.cards{
+	margin: 20px 20px;
+	width: 300px;
+	height: 300px;
+	display: grid;
+	margin-bottom: 70px;
+
+}
+#c1{
+	background :magenta;
+	color: #000;
+}
+#c2{
+	background :cyan;
+	color: #000;
+}
+#c3{
+	background :darkcyan;
+	color: #fff;
+}
+#c4{
+	background:#000034;
+	color: #fff;
+}
+.cards h3{
+	margin-top: 30px;
+	text-align: center;
+	
+}
+.c{
+	left: 50%;
+	right: 50%;
+	position: relative;
+	bottom: 5px;
+	font-size: 50px;
+
+}
+.arr i{
+	float: right;
+	
+	font-size: 30px;
+	color: cyan;
+}
+.serv{
+	width: 100%;
+	height: 10vh;
+    padding: 20px 20px;
+    bottom: 100px;
+    background: #000033;
+    color: aqua;
+}
+.footer{
+	
+    width: 100%;
+    padding: 20px 20px;
+    bottom: 0;
+    background: #000033;
+    color: aqua;
+}
+.row{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.footer span{
+    font-size: 1.5rem;
+    padding: 6px;
+}
+.row h2{
+    color: aquamarine;
+}
+.row a{
+    color: aqua;
+    font-size: 1.2rem;
+	text-decoration: none;
+}
+#row1 li span{
+	text-decoration: none;
+}
+.copyright{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: aquamarine;
+    font-size: 1.1rem;
+}
